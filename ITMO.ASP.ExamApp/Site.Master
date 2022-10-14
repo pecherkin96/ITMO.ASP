@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ITMO.ASP.ExamApp.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Электронный Журнал</title>
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            
+            <table class="auto-style1"> 
+            <tr> 
+                <td colspan="2" style="height:100px">&nbsp;<h2>Электронный Журнал</h2>
+                &nbsp;</td> 
+            </tr> 
+            <tr> 
+                <td style="width:200px">&nbsp; 
+                    <asp:Menu ID="Menu1" runat="server" ForeColor="#006600" StaticSubMenuIndent="16px">
+                        <Items>
+                            <asp:MenuItem Text="Главная" Value="Главная" NavigateUrl="~/MainPage.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Добавить студента" Value="Добавить студента" NavigateUrl="~/Add.aspx"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Students List.aspx" Text="Вывод журнала" Value="Вывод журнала"></asp:MenuItem>
+                        </Items>
+
+                    </asp:Menu>&nbsp;</td> 
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td> 
+            </tr> 
+            <tr> 
+                <td colspan="2" style="height:100px">&nbsp; 
+                   <p>Группа 124-16</p> 
+                   <P> 2022</P>
+                </td> 
+            </tr> 
+        </table>
+            
+        </div>
+    </form>
+</body>
+</html>
