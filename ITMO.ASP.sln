@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ASP.Lab1.1", "ITMO.ASP.Lab1.1\ITMO.ASP.Lab1.1.csproj", "{5E442AAD-29FF-4D0F-8070-BB5317A2AAC3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ASP.Lab1.1", "ITMO.ASP.WebForms\ITMO.ASP.Lab1.1.csproj", "{5E442AAD-29FF-4D0F-8070-BB5317A2AAC3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ASP.MVC.Lab.1-4", "ITMO.ASP.MVC.Lab.1-4\ITMO.ASP.MVC.Lab.1-4.csproj", "{E827F6F8-1104-4B20-A698-4F1C52F15EA7}"
 EndProject
